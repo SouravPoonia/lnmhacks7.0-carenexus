@@ -1,0 +1,26 @@
+
+Command: shopt -s histappend
+Output:
+
+Exit Code: 0
+----
+Command: pwd
+Output:
+/Users/souravpoonia/Desktop/Code/Medicine
+Exit Code: 0
+----
+Command: python main.py
+Output:
+bash: python: command not found
+Exit Code: 127
+----
+Command: which python3
+Output:
+/opt/homebrew/bin/python3
+Exit Code: 0
+----
+Command: python
+Output:
+bash: python: command not found
+Exit Code: 127
+----
